@@ -1,17 +1,86 @@
 {
   "assets": {
     "BTC": {
-      "error": "[Errno 111] Connection refused",
-      "path": "/chainwatch/microstructure/BTC?minutes=60"
+      "asset": "BTC",
+      "fetched_at": "2026-05-30T02:20:02.636834+00:00",
+      "latest": {
+        "ask_vol_20": 0.57808,
+        "ask_vol_5": 0.37687,
+        "bid_vol_20": 8.89284,
+        "bid_vol_5": 6.4389899999999995,
+        "captured_at": 1780107541,
+        "captured_at_iso": "2026-05-30T02:19:01+00:00",
+        "imb_10": 0.8762,
+        "imb_20": 0.8779,
+        "imb_5": 0.8894,
+        "mid_price": 73671.095,
+        "spread_bps": 0.001
+      },
+      "symbol": "BTCUSDT",
+      "window_60m": {
+        "imb_10_mean": 0.0521,
+        "imb_20_mean": 0.0439,
+        "imb_5_max": 0.9831,
+        "imb_5_mean": 0.0415,
+        "imb_5_min": -0.9885,
+        "samples": 59,
+        "spread_bps_mean": 0.001
+      }
     },
     "ETH": {
-      "error": "[Errno 111] Connection refused",
-      "path": "/chainwatch/microstructure/ETH?minutes=60"
+      "asset": "ETH",
+      "fetched_at": "2026-05-30T02:20:02.691220+00:00",
+      "latest": {
+        "ask_vol_20": 98.4022,
+        "ask_vol_5": 70.3025,
+        "bid_vol_20": 91.1482,
+        "bid_vol_5": 62.840599999999995,
+        "captured_at": 1780107542,
+        "captured_at_iso": "2026-05-30T02:19:02+00:00",
+        "imb_10": -0.0281,
+        "imb_20": -0.0383,
+        "imb_5": -0.056,
+        "mid_price": 2019.9650000000001,
+        "spread_bps": 0.05
+      },
+      "symbol": "ETHUSDT",
+      "window_60m": {
+        "imb_10_mean": -0.0534,
+        "imb_20_mean": -0.1391,
+        "imb_5_max": 0.9662,
+        "imb_5_mean": -0.0501,
+        "imb_5_min": -0.9826,
+        "samples": 60,
+        "spread_bps_mean": 0.05
+      }
     },
     "SOL": {
-      "error": "[Errno 111] Connection refused",
-      "path": "/chainwatch/microstructure/SOL?minutes=60"
+      "asset": "SOL",
+      "fetched_at": "2026-05-30T02:20:02.743515+00:00",
+      "latest": {
+        "ask_vol_20": 21223.978,
+        "ask_vol_5": 5876.186,
+        "bid_vol_20": 16347.917,
+        "bid_vol_5": 3174.974,
+        "captured_at": 1780107542,
+        "captured_at_iso": "2026-05-30T02:19:02+00:00",
+        "imb_10": -0.141,
+        "imb_20": -0.1298,
+        "imb_5": -0.2984,
+        "mid_price": 82.975,
+        "spread_bps": 1.205
+      },
+      "symbol": "SOLUSDT",
+      "window_60m": {
+        "imb_10_mean": -0.0002,
+        "imb_20_mean": 0.0033,
+        "imb_5_max": 0.633,
+        "imb_5_mean": -0.0358,
+        "imb_5_min": -0.4298,
+        "samples": 60,
+        "spread_bps_mean": 1.208
+      }
     }
   },
-  "fetched_at": "2026-05-30T02:15:02.429400+00:00"
+  "fetched_at": "2026-05-30T02:20:02.598448+00:00"
 }
