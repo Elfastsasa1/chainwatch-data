@@ -275,8 +275,8 @@
     "assets": {
       "BTC": {
         "asset": "BTC",
-        "computed_at": 1780287602,
-        "computed_at_iso": "2026-06-01T04:20:02+00:00",
+        "computed_at": 1780287902,
+        "computed_at_iso": "2026-06-01T04:25:02+00:00",
         "converged": true,
         "feature_means": {
           "build_up": {
@@ -298,19 +298,19 @@
             "spread_bps": 0.06354
           }
         },
-        "fetched_at": "2026-06-01T04:25:02.208264+00:00",
+        "fetched_at": "2026-06-01T04:30:02.820116+00:00",
         "last_fit_at": 1780277104,
         "last_fit_at_iso": "2026-06-01T01:25:04+00:00",
         "n_samples": 1435,
         "posterior": {
-          "build_up": 0.7341,
-          "stable": 0.2659,
+          "build_up": 0.005,
+          "stable": 0.995,
           "stress": 0.0
         },
         "quality": "good",
-        "refit_age_hours": 3.0,
-        "refit_age_seconds": 10798,
-        "state": "build_up",
+        "refit_age_hours": 3.08,
+        "refit_age_seconds": 11098,
+        "state": "stable",
         "symbol": "BTCUSDT",
         "transition_matrix": {
           "matrix": [
@@ -339,8 +339,8 @@
       },
       "ETH": {
         "asset": "ETH",
-        "computed_at": 1780287602,
-        "computed_at_iso": "2026-06-01T04:20:02+00:00",
+        "computed_at": 1780287903,
+        "computed_at_iso": "2026-06-01T04:25:03+00:00",
         "converged": true,
         "feature_means": {
           "build_up": {
@@ -362,7 +362,7 @@
             "spread_bps": 0.049409
           }
         },
-        "fetched_at": "2026-06-01T04:25:02.245988+00:00",
+        "fetched_at": "2026-06-01T04:30:02.856205+00:00",
         "last_fit_at": 1780277104,
         "last_fit_at_iso": "2026-06-01T01:25:04+00:00",
         "n_samples": 1435,
@@ -372,8 +372,8 @@
           "stress": 0.0
         },
         "quality": "good",
-        "refit_age_hours": 3.0,
-        "refit_age_seconds": 10798,
+        "refit_age_hours": 3.08,
+        "refit_age_seconds": 11098,
         "state": "build_up",
         "symbol": "ETHUSDT",
         "transition_matrix": {
@@ -403,8 +403,8 @@
       },
       "SOL": {
         "asset": "SOL",
-        "computed_at": 1780287603,
-        "computed_at_iso": "2026-06-01T04:20:03+00:00",
+        "computed_at": 1780287903,
+        "computed_at_iso": "2026-06-01T04:25:03+00:00",
         "converged": true,
         "feature_means": {
           "build_up": {
@@ -426,19 +426,19 @@
             "spread_bps": 1.210959
           }
         },
-        "fetched_at": "2026-06-01T04:25:02.280722+00:00",
+        "fetched_at": "2026-06-01T04:30:02.890959+00:00",
         "last_fit_at": 1780277105,
         "last_fit_at_iso": "2026-06-01T01:25:05+00:00",
         "n_samples": 1435,
         "posterior": {
-          "build_up": 0.0182,
+          "build_up": 0.9548,
           "stable": 0.0,
-          "stress": 0.9818
+          "stress": 0.0452
         },
         "quality": "degenerate",
-        "refit_age_hours": 3.0,
-        "refit_age_seconds": 10797,
-        "state": "stress",
+        "refit_age_hours": 3.08,
+        "refit_age_seconds": 11097,
+        "state": "build_up",
         "symbol": "SOLUSDT",
         "transition_matrix": {
           "matrix": [
@@ -466,28 +466,28 @@
         }
       }
     },
-    "fetched_at": "2026-06-01T04:25:02.170010+00:00",
+    "fetched_at": "2026-06-01T04:30:02.786577+00:00",
     "summary": {
       "assets": [
         {
-          "computed_at": 1780287602,
-          "computed_at_iso": "2026-06-01T04:20:02+00:00",
+          "computed_at": 1780287902,
+          "computed_at_iso": "2026-06-01T04:25:02+00:00",
           "converged": true,
           "last_fit_at": 1780277104,
           "n_samples": 1435,
           "posterior": {
-            "build_up": 0.7341,
-            "stable": 0.2659,
+            "build_up": 0.005,
+            "stable": 0.995,
             "stress": 0.0
           },
           "quality": "good",
-          "refit_age_hours": 3.0,
-          "state": "build_up",
+          "refit_age_hours": 3.08,
+          "state": "stable",
           "symbol": "BTCUSDT"
         },
         {
-          "computed_at": 1780287602,
-          "computed_at_iso": "2026-06-01T04:20:02+00:00",
+          "computed_at": 1780287903,
+          "computed_at_iso": "2026-06-01T04:25:03+00:00",
           "converged": true,
           "last_fit_at": 1780277104,
           "n_samples": 1435,
@@ -497,44 +497,44 @@
             "stress": 0.0
           },
           "quality": "good",
-          "refit_age_hours": 3.0,
+          "refit_age_hours": 3.08,
           "state": "build_up",
           "symbol": "ETHUSDT"
         },
         {
-          "computed_at": 1780287603,
-          "computed_at_iso": "2026-06-01T04:20:03+00:00",
+          "computed_at": 1780287903,
+          "computed_at_iso": "2026-06-01T04:25:03+00:00",
           "converged": true,
           "last_fit_at": 1780277105,
           "n_samples": 1435,
           "posterior": {
-            "build_up": 0.0182,
+            "build_up": 0.9548,
             "stable": 0.0,
-            "stress": 0.9818
+            "stress": 0.0452
           },
           "quality": "degenerate",
-          "refit_age_hours": 3.0,
-          "state": "stress",
+          "refit_age_hours": 3.08,
+          "state": "build_up",
           "symbol": "SOLUSDT"
         }
       ],
       "count": 3,
-      "fetched_at": "2026-06-01T04:25:02.168822+00:00"
+      "fetched_at": "2026-06-01T04:30:02.785320+00:00"
     }
   },
-  "generated_at": "2026-06-01T04:25:03.902574+00:00",
+  "generated_at": "2026-06-01T04:30:04.196294+00:00",
   "market": {
-    "active_cryptocurrencies": 17402,
-    "btc_dominance_pct": 57.23713904119605,
+    "active_cryptocurrencies": 17401,
+    "btc_dominance_pct": 57.22416032210287,
     "defi_tvl_usd": 80566473243.99576,
-    "eth_dominance_pct": 9.387855461638923,
+    "eth_dominance_pct": 9.38109026098641,
     "fear_greed": {
       "classification": "Fear",
       "value": 29
     },
-    "fetched_at": "2026-06-01T04:20:03.336170+00:00",
-    "market_cap_change_24h_pct": -0.5293898739351081,
-    "market_cap_usd": 2573439564416.179,
+    "fetched_at": "2026-06-01T04:30:03.989574+00:00",
+    "market_cap_change_24h_pct": -0.7090244121623193,
+    "market_cap_usd": 2568281435394.6875,
     "sources": [
       "coingecko",
       "defillama",
@@ -568,26 +568,26 @@
     "assets": {
       "BTC": {
         "asset": "BTC",
-        "fetched_at": "2026-06-01T04:25:02.050775+00:00",
+        "fetched_at": "2026-06-01T04:30:02.667175+00:00",
         "latest": {
-          "ask_vol_20": 3.9788,
-          "ask_vol_5": 3.8147,
-          "bid_vol_20": 2.4902100000000003,
-          "bid_vol_5": 2.10195,
-          "captured_at": 1780287841,
-          "captured_at_iso": "2026-06-01T04:24:01+00:00",
-          "imb_10": -0.2594,
-          "imb_20": -0.2301,
-          "imb_5": -0.2895,
-          "mid_price": 73441.275,
+          "ask_vol_20": 1.13886,
+          "ask_vol_5": 1.10077,
+          "bid_vol_20": 4.85114,
+          "bid_vol_5": 4.4642,
+          "captured_at": 1780288141,
+          "captured_at_iso": "2026-06-01T04:29:01+00:00",
+          "imb_10": 0.6269,
+          "imb_20": 0.6197,
+          "imb_5": 0.6044,
+          "mid_price": 73439.995,
           "spread_bps": 0.001
         },
         "symbol": "BTCUSDT",
         "window_60m": {
-          "imb_10_mean": -0.1154,
-          "imb_20_mean": -0.139,
+          "imb_10_mean": -0.1577,
+          "imb_20_mean": -0.1726,
           "imb_5_max": 0.9939,
-          "imb_5_mean": -0.0842,
+          "imb_5_mean": -0.1307,
           "imb_5_min": -0.9986,
           "samples": 60,
           "spread_bps_mean": 0.001
@@ -595,26 +595,26 @@
       },
       "ETH": {
         "asset": "ETH",
-        "fetched_at": "2026-06-01T04:25:02.089404+00:00",
+        "fetched_at": "2026-06-01T04:30:02.713917+00:00",
         "latest": {
-          "ask_vol_20": 57.9632,
-          "ask_vol_5": 54.730199999999996,
-          "bid_vol_20": 106.0694,
-          "bid_vol_5": 30.6575,
-          "captured_at": 1780287841,
-          "captured_at_iso": "2026-06-01T04:24:01+00:00",
-          "imb_10": -0.0769,
-          "imb_20": 0.2933,
-          "imb_5": -0.2819,
-          "mid_price": 1997.6950000000002,
+          "ask_vol_20": 22.572400000000002,
+          "ask_vol_5": 19.3379,
+          "bid_vol_20": 115.45230000000001,
+          "bid_vol_5": 89.54010000000001,
+          "captured_at": 1780288142,
+          "captured_at_iso": "2026-06-01T04:29:02+00:00",
+          "imb_10": 0.6656,
+          "imb_20": 0.6729,
+          "imb_5": 0.6448,
+          "mid_price": 1996.645,
           "spread_bps": 0.05
         },
         "symbol": "ETHUSDT",
         "window_60m": {
-          "imb_10_mean": -0.0262,
-          "imb_20_mean": -0.0258,
+          "imb_10_mean": -0.024,
+          "imb_20_mean": -0.0131,
           "imb_5_max": 0.9922,
-          "imb_5_mean": -0.0239,
+          "imb_5_mean": -0.0232,
           "imb_5_min": -0.9991,
           "samples": 60,
           "spread_bps_mean": 0.05
@@ -622,37 +622,37 @@
       },
       "SOL": {
         "asset": "SOL",
-        "fetched_at": "2026-06-01T04:25:02.127871+00:00",
+        "fetched_at": "2026-06-01T04:30:02.749315+00:00",
         "latest": {
-          "ask_vol_20": 14882.807,
-          "ask_vol_5": 2428.516,
-          "bid_vol_20": 16358.951,
-          "bid_vol_5": 1861.496,
-          "captured_at": 1780287842,
-          "captured_at_iso": "2026-06-01T04:24:02+00:00",
-          "imb_10": -0.0844,
-          "imb_20": 0.0472,
-          "imb_5": -0.1322,
-          "mid_price": 82.015,
-          "spread_bps": 1.219
+          "ask_vol_20": 13061.317000000001,
+          "ask_vol_5": 2070.057,
+          "bid_vol_20": 22899.051,
+          "bid_vol_5": 3538.219,
+          "captured_at": 1780288142,
+          "captured_at_iso": "2026-06-01T04:29:02+00:00",
+          "imb_10": 0.2571,
+          "imb_20": 0.2736,
+          "imb_5": 0.2618,
+          "mid_price": 81.955,
+          "spread_bps": 1.22
         },
         "symbol": "SOLUSDT",
         "window_60m": {
-          "imb_10_mean": -0.0621,
-          "imb_20_mean": 0.076,
-          "imb_5_max": 0.4145,
-          "imb_5_mean": -0.2066,
+          "imb_10_mean": -0.0449,
+          "imb_20_mean": 0.0993,
+          "imb_5_max": 0.5694,
+          "imb_5_mean": -0.1857,
           "imb_5_min": -0.6331,
           "samples": 60,
-          "spread_bps_mean": 1.21
+          "spread_bps_mean": 1.212
         }
       }
     },
-    "fetched_at": "2026-06-01T04:25:02.014275+00:00"
+    "fetched_at": "2026-06-01T04:30:02.623301+00:00"
   },
   "news": {
     "count": 15,
-    "fetched_at": "2026-06-01T04:25:03.901080+00:00",
+    "fetched_at": "2026-06-01T04:30:04.194567+00:00",
     "items": [
       {
         "link": "https://cointelegraph.com/news/whitehat-helps-recover-2m-from-2016-ico-smart-contract?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -783,7 +783,7 @@
     "ttl_seconds": 300
   },
   "regime": {
-    "fetched_at": "2026-06-01T04:25:01.868293+00:00",
+    "fetched_at": "2026-06-01T04:30:02.370693+00:00",
     "intervals": {
       "1d": {
         "assets": [
@@ -852,7 +852,7 @@
           }
         ],
         "count": 3,
-        "fetched_at": "2026-06-01T04:25:01.973078+00:00",
+        "fetched_at": "2026-06-01T04:30:02.585102+00:00",
         "interval": "1d"
       },
       "4h": {
@@ -922,7 +922,7 @@
           }
         ],
         "count": 3,
-        "fetched_at": "2026-06-01T04:25:02.012866+00:00",
+        "fetched_at": "2026-06-01T04:30:02.621980+00:00",
         "interval": "4h"
       }
     }
