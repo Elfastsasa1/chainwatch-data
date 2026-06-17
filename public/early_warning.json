@@ -2,8 +2,8 @@
   "assets": {
     "BTC": {
       "asset": "BTC",
-      "computed_at": 1781695504,
-      "computed_at_iso": "2026-06-17T11:25:04+00:00",
+      "computed_at": 1781695804,
+      "computed_at_iso": "2026-06-17T11:30:04+00:00",
       "converged": true,
       "feature_means": {
         "build_up": {
@@ -25,7 +25,7 @@
           "spread_bps": 0.001513
         }
       },
-      "fetched_at": "2026-06-17T11:30:03.574769+00:00",
+      "fetched_at": "2026-06-17T11:35:04.165132+00:00",
       "last_fit_at": 1781664004,
       "last_fit_at_iso": "2026-06-17T02:40:04+00:00",
       "n_samples": 1435,
@@ -35,8 +35,8 @@
         "stress": 1.0
       },
       "quality": "degenerate",
-      "refit_age_hours": 8.83,
-      "refit_age_seconds": 31799,
+      "refit_age_hours": 8.92,
+      "refit_age_seconds": 32100,
       "state": "stress",
       "symbol": "BTCUSDT",
       "transition_matrix": {
@@ -66,8 +66,8 @@
     },
     "ETH": {
       "asset": "ETH",
-      "computed_at": 1781695504,
-      "computed_at_iso": "2026-06-17T11:25:04+00:00",
+      "computed_at": 1781695805,
+      "computed_at_iso": "2026-06-17T11:30:05+00:00",
       "converged": true,
       "feature_means": {
         "build_up": {
@@ -89,19 +89,19 @@
           "spread_bps": 2.281523
         }
       },
-      "fetched_at": "2026-06-17T11:30:03.623001+00:00",
+      "fetched_at": "2026-06-17T11:35:04.228211+00:00",
       "last_fit_at": 1781663705,
       "last_fit_at_iso": "2026-06-17T02:35:05+00:00",
       "n_samples": 1435,
       "posterior": {
-        "build_up": 0.8701,
-        "stable": 0.1299,
+        "build_up": 0.0,
+        "stable": 1.0,
         "stress": 0.0
       },
       "quality": "good",
-      "refit_age_hours": 8.92,
-      "refit_age_seconds": 32098,
-      "state": "build_up",
+      "refit_age_hours": 9.0,
+      "refit_age_seconds": 32399,
+      "state": "stable",
       "symbol": "ETHUSDT",
       "transition_matrix": {
         "matrix": [
@@ -130,8 +130,8 @@
     },
     "SOL": {
       "asset": "SOL",
-      "computed_at": 1781695504,
-      "computed_at_iso": "2026-06-17T11:25:04+00:00",
+      "computed_at": 1781695805,
+      "computed_at_iso": "2026-06-17T11:30:05+00:00",
       "converged": true,
       "feature_means": {
         "build_up": {
@@ -153,7 +153,7 @@
           "spread_bps": 1.359632
         }
       },
-      "fetched_at": "2026-06-17T11:30:03.664807+00:00",
+      "fetched_at": "2026-06-17T11:35:04.314174+00:00",
       "last_fit_at": 1781663705,
       "last_fit_at_iso": "2026-06-17T02:35:05+00:00",
       "n_samples": 1435,
@@ -163,8 +163,8 @@
         "stress": 1.0
       },
       "quality": "weak",
-      "refit_age_hours": 8.92,
-      "refit_age_seconds": 32098,
+      "refit_age_hours": 9.0,
+      "refit_age_seconds": 32399,
       "state": "stress",
       "symbol": "SOLUSDT",
       "transition_matrix": {
@@ -193,12 +193,12 @@
       }
     }
   },
-  "fetched_at": "2026-06-17T11:30:03.507556+00:00",
+  "fetched_at": "2026-06-17T11:35:04.097552+00:00",
   "summary": {
     "assets": [
       {
-        "computed_at": 1781695505,
-        "computed_at_iso": "2026-06-17T11:25:05+00:00",
+        "computed_at": 1781695805,
+        "computed_at_iso": "2026-06-17T11:30:05+00:00",
         "converged": true,
         "last_fit_at": 1781676007,
         "n_samples": 1435,
@@ -208,29 +208,29 @@
           "stress": 0.0
         },
         "quality": "degenerate",
-        "refit_age_hours": 5.5,
+        "refit_age_hours": 5.58,
         "state": "stable",
         "symbol": "ADAUSDT"
       },
       {
-        "computed_at": 1781695505,
-        "computed_at_iso": "2026-06-17T11:25:05+00:00",
+        "computed_at": 1781695805,
+        "computed_at_iso": "2026-06-17T11:30:05+00:00",
         "converged": true,
         "last_fit_at": 1781676007,
         "n_samples": 1435,
         "posterior": {
-          "build_up": 0.0453,
+          "build_up": 0.2527,
           "stable": 0.0,
-          "stress": 0.9547
+          "stress": 0.7473
         },
         "quality": "degenerate",
-        "refit_age_hours": 5.5,
+        "refit_age_hours": 5.58,
         "state": "stress",
         "symbol": "BNBUSDT"
       },
       {
-        "computed_at": 1781695504,
-        "computed_at_iso": "2026-06-17T11:25:04+00:00",
+        "computed_at": 1781695804,
+        "computed_at_iso": "2026-06-17T11:30:04+00:00",
         "converged": true,
         "last_fit_at": 1781664004,
         "n_samples": 1435,
@@ -240,13 +240,13 @@
           "stress": 1.0
         },
         "quality": "degenerate",
-        "refit_age_hours": 8.83,
+        "refit_age_hours": 8.92,
         "state": "stress",
         "symbol": "BTCUSDT"
       },
       {
-        "computed_at": 1781695505,
-        "computed_at_iso": "2026-06-17T11:25:05+00:00",
+        "computed_at": 1781695805,
+        "computed_at_iso": "2026-06-17T11:30:05+00:00",
         "converged": true,
         "last_fit_at": 1781676007,
         "n_samples": 1435,
@@ -256,29 +256,29 @@
           "stress": 1.0
         },
         "quality": "weak",
-        "refit_age_hours": 5.5,
+        "refit_age_hours": 5.58,
         "state": "stress",
         "symbol": "DOGEUSDT"
       },
       {
-        "computed_at": 1781695504,
-        "computed_at_iso": "2026-06-17T11:25:04+00:00",
+        "computed_at": 1781695805,
+        "computed_at_iso": "2026-06-17T11:30:05+00:00",
         "converged": true,
         "last_fit_at": 1781663705,
         "n_samples": 1435,
         "posterior": {
-          "build_up": 0.8701,
-          "stable": 0.1299,
+          "build_up": 0.0,
+          "stable": 1.0,
           "stress": 0.0
         },
         "quality": "good",
-        "refit_age_hours": 8.92,
-        "state": "build_up",
+        "refit_age_hours": 9.0,
+        "state": "stable",
         "symbol": "ETHUSDT"
       },
       {
-        "computed_at": 1781695504,
-        "computed_at_iso": "2026-06-17T11:25:04+00:00",
+        "computed_at": 1781695805,
+        "computed_at_iso": "2026-06-17T11:30:05+00:00",
         "converged": true,
         "last_fit_at": 1781663705,
         "n_samples": 1435,
@@ -288,13 +288,13 @@
           "stress": 1.0
         },
         "quality": "weak",
-        "refit_age_hours": 8.92,
+        "refit_age_hours": 9.0,
         "state": "stress",
         "symbol": "SOLUSDT"
       },
       {
-        "computed_at": 1781695505,
-        "computed_at_iso": "2026-06-17T11:25:05+00:00",
+        "computed_at": 1781695805,
+        "computed_at_iso": "2026-06-17T11:30:05+00:00",
         "converged": true,
         "last_fit_at": 1781676007,
         "n_samples": 1435,
@@ -304,12 +304,12 @@
           "stress": 1.0
         },
         "quality": "degenerate",
-        "refit_age_hours": 5.5,
+        "refit_age_hours": 5.58,
         "state": "stress",
         "symbol": "XRPUSDT"
       }
     ],
     "count": 7,
-    "fetched_at": "2026-06-17T11:30:03.503911+00:00"
+    "fetched_at": "2026-06-17T11:35:04.095395+00:00"
   }
 }
